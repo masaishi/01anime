@@ -13,9 +13,9 @@
 }
 
 button{
-	margin-top: 100px;
+	margin-top: auto;
 	width: 80%;
-	font-size: 100px;
+	font-size: auto;
 }
 p {
 	margin-top: 100px;
