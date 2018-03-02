@@ -12,33 +12,6 @@
 </head>
 <body>
 	<h4 id="text"></h4>
-	<form>
-		<input type="button" value="Ubuntu Mono" onclick="chgFont(0)">
-		<input type="button" value="Arialにする" onclick="chgFont(1)">
-		<input type="button" value="太字にする" onclick="chgFont(2)">
-		<input type="button" value="太字を戻す" onclick="chgFont(3)">
-	</form>
-
-	<div id="fontdisp">JavaScript</div>
-
-
-	<script>
-
-	function chgFont(num){
-		if (document.getElementById) {
-	    		switch(num) {
-	   		  //フォントの変更 
-	   		  case 0: body.style.fontFamily = "Ubuntu Mono"; break;
-	   		  case 1: obj.style.fontFamily = "Arial"; break;
-		
-			//太字のON･OFF 
-			case 2: obj.style.fontWeight = "bold"; break;
-			case 3: obj.style.fontWeight = "normal"; break;
-	
-	    }
-	  }
-	}
-	</script>	
 	<button type="button"><a href="./index.html">戻る</a></button>
 	<script src="./script.js"></script>
 </body>
