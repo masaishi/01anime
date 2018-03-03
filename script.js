@@ -2,7 +2,7 @@ var anime = [];
 var text = "";
 var count = 0;
 
-var width = Math.floor(window.innerWidth / 10);
+var width = Math.floor(window.innerWidth / 8);
 var height = Math.floor(window.innerHeight / 10);
 
 for (var i = 0; i + 1 < height; i++) {
